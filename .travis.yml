@@ -3,3 +3,6 @@ compiler: gcc
 script:
    - cd HelloWorld
    - make HelloWorld
+notifications:
+   email: nick.park@geappliances.com
+   slack: chatbot-project-team:kLcZu0x6I4gYQirfYPIWGGzF
